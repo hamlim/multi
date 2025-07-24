@@ -1,12 +1,17 @@
 {
   "name": "multi",
   "version": "0.0.1",
-  "module": "index.ts",
+  "module": "src/index.ts",
   "type": "module",
   "devDependencies": {
     "@biomejs/biome": "2.1.2",
     "@types/bun": "latest"
   },
+  "files": [
+    "src",
+    "package.json",
+    "README.md"
+  ],
   "peerDependencies": {
     "typescript": "^5"
   },
