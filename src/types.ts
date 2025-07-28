@@ -1,11 +1,15 @@
-export type Package = {
+//// PACKAGE TYPES ////
+
+export type BasePackage = {
   /**
    * Path to the package on the local file system
    */
   path: string;
 };
 
-export type Repository = {
+//// REPOSITORY TYPES ////
+
+export type BaseRepository = {
   /**
    * Path to the repository on the local file system
    */
